@@ -4,9 +4,68 @@ set -euf
 ##
 # Make directories for all United States state codes.
 #
+# This implementation creates one-by-one for maximum compatibility.
+#
 # Contact: Joel Parker Henderson (joel@joelparkerhenderson.com)
 # License: GPL
-# Updated: 2015-01-25
+# Created: 2015-01-25
+# Updated: 2020-03-17
 ##
 
-mkdir {ak,al,ar,as,az,ca,co,ct,dc,de,fl,ga,gu,hi,ia,id,il,in,ks,ky,la,ma,md,me,mi,mn,mo,mp,ms,mt,nc,nd,ne,nh,nj,nm,nv,ny,oh,ok,or,pa,pr,ri,sc,sd,tn,tx,um,ut,va,vi,vt,wa,wi,wv,wy}
+mkdir -p ak
+mkdir -p al
+mkdir -p ar
+mkdir -p as
+mkdir -p az
+mkdir -p ca
+mkdir -p co
+mkdir -p ct
+mkdir -p dc
+mkdir -p de
+mkdir -p fl
+mkdir -p ga
+mkdir -p gu
+mkdir -p hi
+mkdir -p ia
+mkdir -p id
+mkdir -p il
+mkdir -p in
+mkdir -p ks
+mkdir -p ky
+mkdir -p la
+mkdir -p ma
+mkdir -p md
+mkdir -p me
+mkdir -p mi
+mkdir -p mn
+mkdir -p mo
+mkdir -p mp
+mkdir -p ms
+mkdir -p mt
+mkdir -p nc
+mkdir -p nd
+mkdir -p ne
+mkdir -p nh
+mkdir -p nj
+mkdir -p nm
+mkdir -p nv
+mkdir -p ny
+mkdir -p oh
+mkdir -p ok
+mkdir -p or
+mkdir -p pa
+mkdir -p pr
+mkdir -p ri
+mkdir -p sc
+mkdir -p sd
+mkdir -p tn
+mkdir -p tx
+mkdir -p um
+mkdir -p ut
+mkdir -p va
+mkdir -p vi
+mkdir -p vt
+mkdir -p wa
+mkdir -p wi
+mkdir -p wv
+mkdir -p wy
